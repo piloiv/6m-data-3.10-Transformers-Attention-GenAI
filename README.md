@@ -61,7 +61,7 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
 | `setup.md`               | Environment install + first-time model downloads |
 | `pre-class.md`           | ~30-min self-study before class |
 | `lesson.md`              | Short reference: overview, takeaways, RAG-design checklist, review Q&A, course-closing reflection |
-| `reference.md`           | Glossary of 24 transformer/GenAI terms |
+| `reference.md`           | Glossary of 25 transformer/GenAI terms |
 | `environment.yml`        | Conda env spec |
 | `docs/index.html`        | Interactive key-concepts walkthrough (GitHub Pages) |
 | `notebooks/`             | 4 in-class NBs + assignment + extensions + data |

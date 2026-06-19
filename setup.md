@@ -62,7 +62,7 @@ conda activate dsai-m3
 ## 4. First-run downloads (automatic)
 
 - **Data (included in the repo):** `notebooks/data/northstar_catalogue.csv` (reused from L09).
-- **Models:** first run downloads three models from Hugging Face into `~/.cache/huggingface/`: `distilbert-sst-2` (~268 MB), `bert-base-NER` (~436 MB), and `SmolLM2-360M-Instruct` (~720 MB). `optional_extensions.ipynb` adds `bart-large-mnli` (~1.6 GB) and `paraphrase-multilingual-MiniLM-L12-v2` (~280 MB). Total cache after the whole lesson: ~3 GB.
+- **Models:** the pre-class notebook (`01_monday_morning.ipynb`) downloads three models from Hugging Face into `~/.cache/huggingface/`: `distilbert-sst-2` (~268 MB), `bert-base-NER` (~436 MB), and `bart-large-mnli` (~1.6 GB, for zero-shot classification). The in-class notebooks then add `SmolLM2-360M-Instruct` (~720 MB). Total cache after the whole lesson: ~3 GB.
 
 > **No GPU?** L10 runs on CPU, but SmolLM2 generation is slow (~5–15 tokens/sec) vs near-instant on a free Colab T4 GPU. Notebooks 03, 04, the assignment, and the extensions each have an **Open in Colab** badge at the top — click it, then **Runtime → Change runtime type → T4 GPU**.
 
